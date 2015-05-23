@@ -1,4 +1,4 @@
-# processfast-api
+# ProcessFast
 ProcessFast is a Java framework for the development of concurrent and distributed applications. A description of the system 
 can be found on this extended abstract paper (https://github.com/tizfa/processfast-api/raw/master/doc/IIR2015ExtendedAbstract.pdf)
 and the related presentation (https://github.com/tizfa/processfast-api/raw/master/doc/ProcessFastOverviewIIR2015.pdf). This is an
