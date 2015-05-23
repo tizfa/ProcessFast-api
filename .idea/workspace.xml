@@ -2,17 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_cnr_isti_hlt_processfast_api_0_9_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_cnr_isti_hlt_processfast_api_0_9_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_cnr_isti_hlt_processfast_api_test_jar_tests_0_9_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_cnr_isti_hlt_processfast_api_test_jar_tests_0_9_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/ApacheLicense.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractArrayTest.java" afterPath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractArrayTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractStorageManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractStorageManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractStorageTest.java" afterPath="$PROJECT_DIR$/src/test/java/it/cnr/isti/hlt/processfast/data/AbstractStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Array.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Array.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayDataSourceIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayDataSourceIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayIterator.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayPairDataSourceIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ArrayPairDataSourceIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/AtomicGetOperationsSet.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/AtomicGetOperationsSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/AtomicOperationsSet.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/AtomicOperationsSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CacheType.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CacheType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/CheckpointDataInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/CheckpointDataInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataIterable.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataIterable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataSourceIterator.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataSourceIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataSourceIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/CollectionDataSourceIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/Connector.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/Connector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorCapability.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorCapability.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorController.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/ConnectorIllegalOperationException.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/ConnectorIllegalOperationException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorManager.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorMessage.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorReader.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorType.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorWriter.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/DataIterable.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/DataIterable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DataParTest.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DataParTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/DataStream.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/DataStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Dictionary.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Dictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentAnalyzerJava.java" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentAnalyzerJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzer.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerPDAllFiles.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerPDAllFiles.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerSequential.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerSequential.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerSequentialStreamAllFiles.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerSequentialStreamAllFiles.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPD.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPD.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPD2.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPD2.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPDIterations.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPDIterations.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPDStream.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/DocumentsAnalyzerWithPDStream.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/FailureInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/FailureInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBArray.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBArray.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBArrayTest.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBArrayTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBDataStream.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBDataStream.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBDictionary.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBDictionary.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBMatrix.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBMatrix.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorage.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManager.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManager.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManagerAtomicContext.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManagerAtomicContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManagerProvider.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/FoundationDBStorageManagerProvider.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBStorageManagerTest.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBStorageManagerTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDbStorageTest.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDbStorageTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function0.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function0.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function1.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function2.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function3.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Function3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/FutureValuePromise.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/FutureValuePromise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsBarrier.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsBarrier.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/GParsBroadcastQueueTest.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/GParsBroadcastQueueTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsBroadcastVirtualConnectorReader.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsBroadcastVirtualConnectorReader.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnector.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnectorMessage.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnectorMessage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnectorSelector.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsConnectorSelector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsLoadBalancingQueueConnector.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsLoadBalancingQueueConnector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/GParsLoadBalancingQueueTest.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/GParsLoadBalancingQueueTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsLoadBalancingVirtualConnectorReader.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsLoadBalancingVirtualConnectorReader.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsLogManager.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsLogManager.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsPairPartitionableDataset.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsPairPartitionableDataset.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsPartitionableDataset.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsPartitionableDataset.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsProgramOrchestrator.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsProgramOrchestrator.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRunningTask.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRunningTask.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRunningTasksSet.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRunningTasksSet.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRuntime.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsRuntime.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsSingleValueConnector.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GParsSingleValueConnector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsSystemContext.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsSystemContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskConnectorManager.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskConnectorManager.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskContext.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsTaskDataContext.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/GParsTaskDataContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskDescriptor.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskDescriptor.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskSet.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskSet.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskSetDescriptor.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/GParsTaskSetDescriptor.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GparsBroadcastQueueConnector.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GparsBroadcastQueueConnector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GparsDataflowVariableValuePromise.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/connector/GparsDataflowVariableValuePromise.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/exception/GparsTaskException.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/exception/GparsTaskException.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Hadoop_WordCount.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Hadoop_WordCount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/HardwareFailureAction.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/HardwareFailureAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/HelloWorldTest.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/HelloWorldTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/IOUtils.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/main/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/IOUtils.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ImmutableDataSourceIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ImmutableDataSourceIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachFile.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachFileStreaming.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachFileStreaming.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachLine.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachLineGroupBy.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Java8StreamWordCountEachLineGroupBy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/LogLevel.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/LogLevel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/LogManager.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/LogManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/LogMessage.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/LogMessage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/Logger.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Matrix.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Matrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPD.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPD.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDGPars.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDGPars.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDProcessEach.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDProcessEach.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDProcessEachJava.java" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductPDProcessEachJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductSequential.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/MatrixProductSequential.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDAction.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDAction.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDFunction.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDFunction2.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDFunction2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDPairFunction.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDPairFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDProcedure.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PDProcedure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDRamResultsStorageManager.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDRamResultsStorageManager.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDResultsCollectionStorageIteratorProvider.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDResultsCollectionStorageIteratorProvider.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDResultsStorageManager.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDResultsStorageManager.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDTransformation.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/data/PDTransformation.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Pair.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Pair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PairPartitionableDataset.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PairPartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PartitionableDataset.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure0.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure0.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure1.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure2.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure3.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure4.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Procedure4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile2.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLine.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountFileStreamingPD.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountFileStreamingPD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreaming.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreaming.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreamingPD.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreamingPD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/ProcessfastRuntime.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/ProcessfastRuntime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/RamDictionary.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/RamDictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/RamDoubleMatrixIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/RamDoubleMatrixIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ReadableDictionary.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/ReadableDictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/RunnableDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/RunnableDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/RunningTasksSet.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/RunningTasksSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SLF4JLogManager.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SLF4JLogManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SLF4JLogger.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SLF4JLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/utils/SoftwareInfo.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/utils/SoftwareInfo.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachFile.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachLine.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Storage.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Storage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManager.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManagerAtomicContext.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManagerAtomicContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManagerProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageManagerProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageStreamIteratorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StorageStreamIteratorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StringStreamDataSourceIterator.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/StringStreamDataSourceIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SystemContext.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/SystemContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/Task.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/Task.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/TaskConnectorManager.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/TaskConnectorManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskContext.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDataContext.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDataContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/TaskException.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/TaskException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskIdentifier.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskIdentifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/TaskIdentifierImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/TaskIdentifierImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSet.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSetDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSetDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSharedData.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskSharedData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/test/TestLinesReader.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/test/TestLinesReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/TestMemory.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/TestMemory.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Triple.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/utils/Triple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/TwitterStreamAnalyzer.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/test/TwitterStreamAnalyzer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ValuePromise.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ValuePromise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/VirtualMachineException.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/exception/VirtualMachineException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithAttachedVirtualBarrierInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithAttachedVirtualBarrierInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithAttachedVirtualBarrierInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithAttachedVirtualBarrierInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithAttachedVirtualConnectorInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithAttachedVirtualConnectorInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithAttachedVirtualConnectorInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithAttachedVirtualConnectorInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithBarrierInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithBarrierInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithBarrierInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithBarrierInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithConnectorInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithConnectorInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithConnectorInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithConnectorInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithDataDictionaryInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithDataDictionaryInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithDataDictionaryInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithDataDictionaryInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithVirtualMachineInfo.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WithVirtualMachineInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithVirtualMachineInfoImpl.groovy" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/core/WithVirtualMachineInfoImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/WordCountSequential.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/WordCountSequential.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WritableTaskSharedData.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/WritableTaskSharedData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/pom.xml" afterPath="$PROJECT_DIR$/../processfast-comparison/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/pom.xml" afterPath="$PROJECT_DIR$/../processfast-gpars/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/pom.xml" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" afterPath="$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/resources/processfast-comparison.properties" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/resources/processfast-comparison.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/processfast-gpars.properties" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/processfast-gpars.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/processfast.properties" afterPath="$PROJECT_DIR$/src/main/resources/processfast.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/twitter4j.properties" afterPath="$PROJECT_DIR$/../processfast-gpars/src/main/resources/twitter4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="processfast-api.iws" />
@@ -38,31 +209,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Connector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/Connector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#933#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../processfast-gpars/pom.xml">
+      <file leaf-file-name="ConnectorCapability.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorCapability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0880829">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../processfast-comparison/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.70284235">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -78,7 +241,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../processfast-gpars" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -97,6 +260,7 @@
         <option value="$PROJECT_DIR$/../processfast-gpars/pom.xml" />
         <option value="$PROJECT_DIR$/../processfast-storage-foundationdb/pom.xml" />
         <option value="$PROJECT_DIR$/../processfast-comparison/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorCapability.java" />
       </list>
     </option>
   </component>
@@ -147,6 +311,7 @@
     </treeState>
   </component>
   <component name="NamedScopeManager">
+    <scope name="Source files" pattern="src:*..*||test:*..*" />
     <order />
   </component>
   <component name="ProjectFrameBounds">
@@ -188,16 +353,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,13 +368,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="processfast-storage-foundationdb" />
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processfast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +472,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
@@ -411,26 +656,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32463294" sideWeight="0.5181543" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32300162" sideWeight="0.52420574" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296131" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32463294" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32300162" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -458,6 +703,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../processfast-gpars/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../processfast-comparison/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-gpars/src/main/groovy/it/cnr/isti/hlt/processfast_gpars/utils/SoftwareInfo.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -590,15 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,8 +880,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-gpars/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0880829">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/connector/ConnectorCapability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70284235">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -632,6 +918,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>ApacheLicense</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -711,6 +1009,21 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Source files</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Source files" />
+          </order>
         </settings>
       </state>
     </states>
