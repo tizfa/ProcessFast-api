@@ -1,0 +1,67 @@
+package it.cnr.isti.hlt.processfast.data;
+
+import it.cnr.isti.hlt.processfast.utils.Pair;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Iterator;
+
+/**
+ * An immutable iterator over the lines contained in a text stream. Each
+ * line is returned along with the corresponding order index as found
+ * while reading the stream.
+ * 
+ * @author Tiziano Fagni (tiziano.fagni@isti.cnr.it)
+ * @since 1.0.0
+ */
+public class StringStreamDataSourceIterator implements
+        Iterator<Pair<Integer, String>> {
+
+	private BufferedReader reader;
+	String nextLine;
+	int nextLineIdx;
+
+	/**
+	 * Build new instance of the iterator.
+	 * 
+	 * @param is
+	 *            The input stream where to iterate.
+	 */
+	public StringStreamDataSourceIterator(InputStream is, String encoding) {
+		if (is == null)
+			throw new NullPointerException("The input stream is 'null'");
+		try {
+			this.reader = new BufferedReader(
+					new InputStreamReader(is, encoding));
+			nextLine = reader.readLine();
+			nextLineIdx = 1;
+		} catch (Exception e) {
+			throw new RuntimeException("Error iterating over text stream", e);
+		}
+	}
+
+	public boolean hasNext() {
+		if (nextLine == null)
+			return false;
+		else
+			return true;
+	}
+
+	public Pair<Integer, String> next() {
+		String currentLine = nextLine;
+		int curIdx = nextLineIdx;
+		try {
+			nextLine = reader.readLine();
+			nextLineIdx++;
+		} catch (IOException e) {
+			throw new RuntimeException("Reading next line", e);
+		}
+		return new Pair<Integer, String>(curIdx, currentLine);
+	}
+
+	public void remove() {
+		throw new UnsupportedOperationException("The method is not supported");
+	}
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: it.cnr.isti.hlt:processfast-api:0.9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/it/cnr/isti/hlt/processfast-api/0.9-SNAPSHOT/processfast-api-0.9-20150522.130726-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/it/cnr/isti/hlt/processfast-api/0.9-SNAPSHOT/processfast-api-0.9-20150522.130726-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/it/cnr/isti/hlt/processfast-api/0.9-SNAPSHOT/processfast-api-0.9-20150522.130726-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
