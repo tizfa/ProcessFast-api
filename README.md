@@ -2,7 +2,7 @@
 ProcessFast is a Java framework for the development of concurrent and distributed applications. A description of the system 
 can be found on this extended abstract paper (https://github.com/tizfa/processfast-api/raw/master/doc/IIR2015ExtendedAbstract.pdf)
 and the related presentation (https://github.com/tizfa/processfast-api/raw/master/doc/ProcessFastOverviewIIR2015.pdf). This is an
-ongoing work, so the current implementation is not complete and far to be bug-free. The software is released under the Apache License, Version 2.0.
+ongoing work, so the current implementation is not complete and far to be bug-free. The software is open source and released under the Apache License, Version 2.0.
 
 This is the repository for ProcessFast API. A quite complete implementation of the processing API based on Groovy and GPars 
 can be found at https://github.com/tizfa/processfast-gpars. A partial implementation of the storage API based on FoundationDB can
