@@ -66,12 +66,6 @@
 				<processfast.build.finalname>${project.name}-${processfast.build.generateversion}.${timestamp}</processfast.build.finalname>
 			</properties>
 
-			<distributionManagement>
-				<repository>
-					<id>repo.tag.snapshot</id>
-					<url>http://repo.hlt.isti.cnr.it:8081/nexus/content/repositories/snapshots</url>
-				</repository>
-			</distributionManagement>
 		</profile>
 		<profile>
 			<id>release</id>
@@ -83,12 +77,6 @@
 				<processfast.build.generateversion>${project.version}</processfast.build.generateversion>
 				<processfast.build.finalname>${project.name}-${processfast.build.generateversion}</processfast.build.finalname>
 			</properties>
-			<distributionManagement>
-				<repository>
-					<id>repo.tag.release</id>
-					<url>http://repo.hlt.isti.cnr.it:8081/nexus/content/repositories/releases</url>
-				</repository>
-			</distributionManagement>
 		</profile>
 	</profiles>
 
