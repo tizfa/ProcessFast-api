@@ -43,7 +43,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
      * @param checkpointName The name of checkpoint.
      * @param data The set of storage parts info to save.
      */
-    public void makeCheckpoint(String checkpointName, List<CheckpointDataInfo> data);
+	void makeCheckpoint(String checkpointName, List<CheckpointDataInfo> data);
 
     /**
      * Load the last executed checkpoint name on the owning {@link TaskSet} by reloading the related data structures. Every storage
@@ -52,7 +52,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
      *
      * @param checkpointName The name of checkpoint.
      */
-    public void loadCheckpoint(String checkpointName);
+	void loadCheckpoint(String checkpointName);
 
 
     /**
@@ -61,7 +61,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
      *
      * @param checkpointName The name of checkpoint to delete.
      */
-    public void deleteCheckpoint(String checkpointName);
+	void deleteCheckpoint(String checkpointName);
 
 	
 	
@@ -90,7 +90,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
 	 * @param dataSource The input data source.
 	 * @return A partitionable dataset.
 	 */
-	public <T extends Serializable> PartitionableDataset<T> createPartitionableDataset(ImmutableDataSourceIteratorProvider<T> dataSource);
+	<T extends Serializable> PartitionableDataset<T> createPartitionableDataset(ImmutableDataSourceIteratorProvider<T> dataSource);
 	
 	
 	/**
@@ -99,7 +99,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
 	 * @param dataSource The input data source.
 	 * @return A partitionable dataset.
 	 */
-	public <K extends Serializable,V extends Serializable> PairPartitionableDataset<K,V> createPairPartitionableDataset(ImmutableDataSourceIteratorProvider<Pair<K,V>> dataSource);
+	<K extends Serializable,V extends Serializable> PairPartitionableDataset<K,V> createPairPartitionableDataset(ImmutableDataSourceIteratorProvider<Pair<K, V>> dataSource);
 	
 	
 	/**
@@ -110,7 +110,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
 	 * @param dataSources The set of datasources.
 	 * @return A partitionable dataset.
 	 */
-	public  <K extends Serializable,V extends Serializable> PairPartitionableDataset<K,DataIterable<V>> createPairPartitionableDataset(Iterator<ImmutableDataSourceIteratorProvider<V>> dataSources);
+	<K extends Serializable,V extends Serializable> PairPartitionableDataset<K,DataIterable<V>> createPairPartitionableDataset(Iterator<ImmutableDataSourceIteratorProvider<V>> dataSources);
 	
 	
 	/**

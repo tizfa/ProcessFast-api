@@ -61,7 +61,7 @@ public interface TaskSet {
      * @param name The name of the virtual connector. The name must be unique among all declared connectors and
      * virtual connectors.
      */
-    public void createVirtualConnector(String name);
+	void createVirtualConnector(String name);
 
 
 
@@ -75,7 +75,7 @@ public interface TaskSet {
      * @param name The name of the virtual barrier. The name must be unique among all declared real barriers and
      * virtual barriers.
      */
-    public void createVirtualBarrier(String name);
+	void createVirtualBarrier(String name);
 
 
 
@@ -131,7 +131,7 @@ public interface TaskSet {
 	 * @param name The name of the connector. The name must be unique among all declared connectors.
 	 * @param ctype The type of connector to create.
 	 */
-	public void createConnector(String name, ConnectorType ctype);
+	void createConnector(String name, ConnectorType ctype);
 
 
     /**
@@ -142,7 +142,7 @@ public interface TaskSet {
      * @param name The name of the connector. The name must be unique among all declared connectors.
      * @param ctype The type of connector to create.
      */
-    public void createConnector(String name, ConnectorType ctype, int maxSize);
+	void createConnector(String name, ConnectorType ctype, int maxSize);
 	
 	
 	/**
@@ -150,7 +150,7 @@ public interface TaskSet {
 	 * 
 	 * @param name The name of the barrier. The name must be unique among all declared barriers.
 	 */
-	public void createBarrier(String name);
+	void createBarrier(String name);
 	
 	
 	
@@ -161,7 +161,7 @@ public interface TaskSet {
 	 * 
 	 * @param func The procedure which will perform some initialization code.
 	 */
-	public void onTasksSetInitialization(Procedure1<SystemContext> func);
+	void onTasksSetInitialization(Procedure1<SystemContext> func);
 	
 	
 	/**
@@ -172,7 +172,7 @@ public interface TaskSet {
 	 * 
 	 * @param func The procedure which will perform some cleanup code.
 	 */
-	public void onTasksSetTermination(Procedure1<SystemContext> func);
+	void onTasksSetTermination(Procedure1<SystemContext> func);
 	
 	
 	/**

@@ -40,7 +40,7 @@ public interface ConnectorWriter {
 	 * 
 	 * @param v The value to put.
 	 */
-	public void putValue(Serializable v);
+	void putValue(Serializable v);
 	
 	/**
 	 * Put a value through this connector and wait for a result from
@@ -55,11 +55,11 @@ public interface ConnectorWriter {
 	 * @throws ConnectorIllegalOperationException Raised if the operation is requested on a connector that does not
 	 * support it.
 	 */
-	public ValuePromise<Serializable> putValueAndGet(Serializable v) throws ConnectorIllegalOperationException;
+	ValuePromise<Serializable> putValueAndGet(Serializable v) throws ConnectorIllegalOperationException;
 
 	
 	/**
 	 * Signal that that the task owning this connector will send no more data.
 	 */
-	public void signalEndOfStream();
+	void signalEndOfStream();
 }

@@ -61,10 +61,7 @@ public class ArrayIterator<T extends Serializable> implements Iterator<T> {
     }
 
     public boolean hasNext() {
-        if ((numTotalItemsRead + numCurrentItemsRead) < sizeArray)
-            return true;
-        else
-            return false;
+        return (numTotalItemsRead + numCurrentItemsRead) < sizeArray;
     }
 
     public T next() {

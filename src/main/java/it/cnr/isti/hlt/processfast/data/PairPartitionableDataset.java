@@ -44,7 +44,7 @@ public interface PairPartitionableDataset<K extends Serializable, V extends Seri
 	 * @return This partitionable dataset containing (K, V) pairs
 	 * where the values for each key are aggregated using the given reduce function.
 	 */
-	public PairPartitionableDataset<K, V> reduceByKey(PDFunction2<V, V, V> func);
+	PairPartitionableDataset<K, V> reduceByKey(PDFunction2<V, V, V> func);
 	
 	
 	/**
@@ -64,7 +64,7 @@ public interface PairPartitionableDataset<K extends Serializable, V extends Seri
 	 * 
 	 * @return This partitionable dataset containing items grouped by key.
 	 */
-	public PairPartitionableDataset<K,DataIterable<V>> groupByKey();
+	PairPartitionableDataset<K,DataIterable<V>> groupByKey();
 	
 	
 	
@@ -75,17 +75,17 @@ public interface PairPartitionableDataset<K extends Serializable, V extends Seri
 	 * @param dataset The dataset to join.
 	 * @return This partitionable dataset containing joined items.
 	 */
-	public <T extends Serializable> PairPartitionableDataset<K, Pair<V, T>> join(PairPartitionableDataset<K, T> dataset);
+	<T extends Serializable> PairPartitionableDataset<K, Pair<V, T>> join(PairPartitionableDataset<K, T> dataset);
 
 
 	
 	@Override
-	public PairPartitionableDataset<K,V> cache(CacheType cacheType);
+	PairPartitionableDataset<K,V> cache(CacheType cacheType);
 	
 	@Override
 	PairPartitionableDataset<K,V> saveOnStorageManager(Procedure3<TaskDataContext,StorageManager, Pair<K,V>> func);
 	
 	@Override
-	public PairPartitionableDataset<K,V> enableLocalComputation(boolean enable);
+	PairPartitionableDataset<K,V> enableLocalComputation(boolean enable);
 	
 }

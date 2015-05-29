@@ -34,5 +34,5 @@ public interface Function1<I,O> {
 	 * @param par The parameter value.
 	 * @return The output of the function.
 	 */
-	public O call(I par);
+	O call(I par);
 }

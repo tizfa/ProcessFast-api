@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/../processfast-gpars/pom.xml" />
         <option value="$PROJECT_DIR$/../processfast-storage-foundationdb/pom.xml" />
         <option value="$PROJECT_DIR$/../processfast-comparison/pom.xml" />
+        <option value="$PROJECT_DIR$/../processfast-mt/pom.xml" />
       </list>
     </option>
   </component>

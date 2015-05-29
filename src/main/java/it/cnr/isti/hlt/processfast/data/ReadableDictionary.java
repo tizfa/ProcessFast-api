@@ -44,7 +44,7 @@ public interface ReadableDictionary {
 	 * @return The data associated with the specified key, or 'null' if the specified key
 	 * is not contained in the table.
 	 */
-	public <T extends Serializable> T get(String key);
+	<T extends Serializable> T get(String key);
 	
 	
 	/**
@@ -52,7 +52,7 @@ public interface ReadableDictionary {
 	 * 
 	 * @return The set of keys stored on this dictionary.
 	 */
-	public Iterator<String> keySet();
+	Iterator<String> keySet();
 	
 	
 	/**
@@ -60,5 +60,5 @@ public interface ReadableDictionary {
 	 * 
 	 * @return The number of [key, value] pairs contained in the dictionary.
 	 */
-	public long size();
+	long size();
 }

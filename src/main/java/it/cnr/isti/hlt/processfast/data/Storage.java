@@ -60,7 +60,7 @@ public interface Storage {
 	 * @param cl The class type of the items stored on the array.
 	 * @return The corresponding array.
 	 */
-	public <T extends Serializable> Array<T> createArray(String name, Class<T> cl);
+	<T extends Serializable> Array<T> createArray(String name, Class<T> cl);
 	
 	
 	/**
@@ -69,7 +69,7 @@ public interface Storage {
 	 *
 	 * @param name The array name to be removed.
 	 */
-	public void removeArray(String name);
+	void removeArray(String name);
 	
 	
 	/**
@@ -79,7 +79,7 @@ public interface Storage {
 	 * @param name The type of items stored in the array.
 	 * @return The requested array, or 'null' if the array can not be retrieved.
 	 */
-	public <T extends Serializable> Array<T> getArray(String name, Class<T> cl);
+	<T extends Serializable> Array<T> getArray(String name, Class<T> cl);
 	
 	
 	
@@ -108,7 +108,7 @@ public interface Storage {
 	 * @param numCols The number of columns in the matrix.
 	 * @return The corresponding matrix.
 	 */
-	public <T extends Serializable> Matrix<T> createMatrix(String name, Class<T> cl, long numRows, long numCols);
+	<T extends Serializable> Matrix<T> createMatrix(String name, Class<T> cl, long numRows, long numCols);
 	
 	
 	/**
@@ -117,7 +117,7 @@ public interface Storage {
 	 *
 	 * @param name The matrix name to be removed.
 	 */
-	public void removeMatrix(String name);
+	void removeMatrix(String name);
 	
 	
 	/**
@@ -127,7 +127,7 @@ public interface Storage {
 	 * @param cl The type of items stored in the matrix.
 	 * @return The requested matrix, or 'null' if the array can not be retrieved.
 	 */
-	public <T extends Serializable> Matrix<T> getMatrix(String name, Class<T> cl);
+	<T extends Serializable> Matrix<T> getMatrix(String name, Class<T> cl);
 	
 	
 	/**
@@ -155,7 +155,7 @@ public interface Storage {
 	 * @param name The name of dictionary.
 	 * @return The corresponding dictionary.
 	 */
-	public Dictionary createDictionary(String name);
+	Dictionary createDictionary(String name);
 	
 	
 	/**
@@ -163,7 +163,7 @@ public interface Storage {
 	 * 
 	 * @param name The name of dictionary to remove.
 	 */
-	public void removeDictionary(String name);
+	void removeDictionary(String name);
 	
 	
 	/**
@@ -172,7 +172,7 @@ public interface Storage {
 	 * @param name The name of the dictionary to get.
 	 * @return The corresponding dictionary.
 	 */
-	public Dictionary getDictionary(String name);
+	Dictionary getDictionary(String name);
 	
 	
 	/**
@@ -199,14 +199,14 @@ public interface Storage {
 	 * @param name The name of data stream to create.
 	 * @return The corresponding data stream.
 	 */
-	public DataStream createDataStream(String name);
+	DataStream createDataStream(String name);
 	
 	/**
 	 * Remove a data stream from storage.
 	 * 
 	 * @param name The name of data stream to remove.
 	 */
-	public void removeDataStream(String name);
+	void removeDataStream(String name);
 	
 	
 	/**
@@ -215,7 +215,7 @@ public interface Storage {
 	 * @param name The name of data stream to retrieve.
 	 * @return The corresponding data stream.
 	 */
-	public DataStream getDataStream(String name);
+	DataStream getDataStream(String name);
 	
 	
 	
@@ -224,5 +224,5 @@ public interface Storage {
 	 * Flush the data of all contained data structures, eventually stored locally in memory, to 
 	 * the destination storage.
 	 */
-	public void flushData();
+	void flushData();
 }

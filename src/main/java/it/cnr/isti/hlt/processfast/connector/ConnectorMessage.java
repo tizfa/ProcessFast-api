@@ -33,7 +33,7 @@ public interface ConnectorMessage {
 	 * 
 	 * @return The "real" value packaged with this message.
 	 */
-	public Serializable getPayload();
+	Serializable getPayload();
 	
 	
 	/**
@@ -41,7 +41,7 @@ public interface ConnectorMessage {
 	 * 
 	 * @return True if the source producer is waiting for a reply, false otherwise.
 	 */
-	public boolean isWaitingReply();
+	boolean isWaitingReply();
 	
 	
 	/**
@@ -49,7 +49,7 @@ public interface ConnectorMessage {
 	 * 
 	 * @param v The value to be replied.
 	 */
-	public void replyValue(Serializable v);
+	void replyValue(Serializable v);
 
 
     /**

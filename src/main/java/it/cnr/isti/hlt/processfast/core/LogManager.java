@@ -32,12 +32,12 @@ public interface LogManager {
 	 * 
 	 * @param loggerName The logger name.
 	 */
-	public Logger getLogger(String loggerName);
+	Logger getLogger(String loggerName);
 	
 	/**
 	 * Remove the log data associated with this logger.
 	 * 
 	 * @param loggerName The logger to remove.
 	 */
-	public void removeLogger(String loggerName);
+	void removeLogger(String loggerName);
 }

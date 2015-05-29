@@ -31,5 +31,5 @@ public interface AtomicOperationsSet {
 	 * 
 	 * @param ctx The context to use.
 	 */
-	 public void call(StorageManagerAtomicContext ctx);
+	void call(StorageManagerAtomicContext ctx);
 }

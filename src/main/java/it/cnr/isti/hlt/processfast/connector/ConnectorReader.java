@@ -43,6 +43,6 @@ public interface ConnectorReader {
 	 * @return The next message to process from this connector or 'null' if the connector will
 	 * give no more data.
 	 */
-	public ConnectorMessage getValue();
+	ConnectorMessage getValue();
 	
 }

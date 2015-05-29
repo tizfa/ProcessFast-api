@@ -46,7 +46,7 @@ public interface DataStream {
 	 * @return The input stream for the specified resource.
 	 *
 	 */
-	public InputStream getInputStreamForResource(String resourceName);
+	InputStream getInputStreamForResource(String resourceName);
 
 	/**
 	 * Get an output stream for the specified named resource. It is
@@ -59,7 +59,7 @@ public interface DataStream {
 	 *            The named resource to access.
 	 * @return The output stream for the specified resource.
 	 */
-	public OutputStream getOutputStreamForResource(String resourceName);
+	OutputStream getOutputStreamForResource(String resourceName);
 
 	/**
 	 * Delete the specified named resource from this storage manager.
@@ -69,7 +69,7 @@ public interface DataStream {
 	 *
 	 *
 	 */
-	public void deleteResource(String resourceName);
+	void deleteResource(String resourceName);
 
 	/**
 	 * Delete all declared resources from this storage manager.
@@ -77,5 +77,5 @@ public interface DataStream {
 	 * @throws IllegalStateException
 	 *             Raised if the storage manager is not open.
 	 */
-	public void deleteAllResources();
+	void deleteAllResources();
 }

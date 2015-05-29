@@ -32,5 +32,5 @@ public interface Procedure1<I1> {
 	 * 
 	 * @param par1 The parameter value 1.
 	 */
-	public void call(I1 par1);
+	void call(I1 par1);
 }

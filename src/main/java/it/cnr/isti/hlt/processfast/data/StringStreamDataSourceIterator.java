@@ -61,10 +61,7 @@ public class StringStreamDataSourceIterator implements
 	}
 
 	public boolean hasNext() {
-		if (nextLine == null)
-			return false;
-		else
-			return true;
+		return nextLine != null;
 	}
 
 	public Pair<Integer, String> next() {

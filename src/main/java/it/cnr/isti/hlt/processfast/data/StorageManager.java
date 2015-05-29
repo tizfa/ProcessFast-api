@@ -60,14 +60,14 @@ public interface StorageManager {
 	 * @param name The name of the new storage.
 	 * @return The corresponding storage.
 	 */
-	public Storage createStorage(String name);
+	Storage createStorage(String name);
 	
 	/**
 	 * Remove a specific storage.
 	 * 
 	 * @param name The name of the storage to remove.
 	 */
-	public void removeStorage(String name);
+	void removeStorage(String name);
 	
 	/**
 	 * Get a specific storage.
@@ -75,14 +75,14 @@ public interface StorageManager {
 	 * @param name The name of the storage to retrieve.
 	 * @return The requested storage or 'null' if the storage can not be found.
 	 */
-	public Storage getStorage(String name);
+	Storage getStorage(String name);
 		
 	
 	/**
 	 * Flush the data of all contained data structures, eventually stored locally in memory, to 
 	 * the destination storage.
 	 */
-	public void flushData();
+	void flushData();
 	
 	
 	/**
@@ -95,7 +95,7 @@ public interface StorageManager {
 	 * @param inputData The input data dictionary.
 	 * @param operations The set of operations to be executed.
 	 */
-	public ValuePromise<Void> atomic(ReadableDictionary inputData, AtomicOperationsSet operations);
+	ValuePromise<Void> atomic(ReadableDictionary inputData, AtomicOperationsSet operations);
 
 
     /**
@@ -107,7 +107,7 @@ public interface StorageManager {
      *
      * @param operations The set of operations to be executed.
      */
-    public ValuePromise<Void> atomic(AtomicOperationsSet operations);
+	ValuePromise<Void> atomic(AtomicOperationsSet operations);
 
 	
 	/**
@@ -121,7 +121,7 @@ public interface StorageManager {
 	 * @param operations The set of operations to be executed.
 	 * @return The output data from the set of operations executed.
 	 */
-	public ValuePromise<ReadableDictionary> atomicGet(ReadableDictionary inputData, AtomicGetOperationsSet operations);
+	ValuePromise<ReadableDictionary> atomicGet(ReadableDictionary inputData, AtomicGetOperationsSet operations);
 
 
 
@@ -135,7 +135,7 @@ public interface StorageManager {
      * @param operations The set of operations to be executed.
      * @return The output data from the set of operations executed.
      */
-    public ValuePromise<ReadableDictionary> atomicGet(AtomicGetOperationsSet operations);
+	ValuePromise<ReadableDictionary> atomicGet(AtomicGetOperationsSet operations);
 
 
     /**

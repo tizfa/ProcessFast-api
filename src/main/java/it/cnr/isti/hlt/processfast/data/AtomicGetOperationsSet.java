@@ -35,5 +35,5 @@ public interface AtomicGetOperationsSet {
 	 * @param ctx The context to use.
 	 * @return The output data to be returned from the set of operations executed.
 	 */
-	 public ReadableDictionary call(StorageManagerAtomicContext ctx);
+	ReadableDictionary call(StorageManagerAtomicContext ctx);
 }

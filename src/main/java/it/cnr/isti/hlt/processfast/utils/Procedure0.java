@@ -30,5 +30,5 @@ public interface Procedure0 {
 	 * Call the function.
 	 * 
 	 */
-	public void call();
+	void call();
 }

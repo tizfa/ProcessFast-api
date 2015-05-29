@@ -31,7 +31,7 @@ public interface StorageManagerAtomicContext {
 	 *  
 	 * @return The storage manager to use.
 	 */
-	public StorageManager getStorageManager();
+	StorageManager getStorageManager();
 	
 	/**
 	 * Get the input dictionary containing data useful
@@ -39,5 +39,5 @@ public interface StorageManagerAtomicContext {
 	 * 
 	 * @return The input data dictionary.
 	 */
-	public ReadableDictionary getInputDictionary();
+	ReadableDictionary getInputDictionary();
 }

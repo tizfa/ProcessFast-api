@@ -36,5 +36,5 @@ public interface Procedure3<I1, I2, I3> {
 	 * @param par2 The parameter value 2.
 	 * @param par3 The parameter value 3.
 	 */
-	public void call(I1 par1, I2 par2, I3 par3);
+	void call(I1 par1, I2 par2, I3 par3);
 }

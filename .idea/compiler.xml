@@ -51,11 +51,19 @@
         <processorPath useClasspath="true" />
         <module name="processfast-comparison" />
       </profile>
+      <profile default="false" name="Annotation profile for processfast-mt" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="processfast-mt" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="processfast-api" target="1.5" />
       <module name="processfast-comparison" target="1.8" />
       <module name="processfast-gpars" target="1.8" />
+      <module name="processfast-mt" target="1.8" />
       <module name="processfast-storage-foundationdb" target="1.8" />
       <module name="processfast_comparison" target="1.8" />
     </bytecodeTargetLevel>

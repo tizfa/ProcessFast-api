@@ -37,7 +37,7 @@ public interface TaskConnectorManager {
      * @param name The name of the connector.
      * @return The requested connector or 'null' if it can not be found.
      */
-    public ConnectorReader getConnectorReader(String name);
+    ConnectorReader getConnectorReader(String name);
 
 
     /**
@@ -49,7 +49,7 @@ public interface TaskConnectorManager {
      * @param name The name of the connector.
      * @return The requested connector or 'null' if it can not be found.
      */
-    public ConnectorWriter getConnectorWriter(String name);
+    ConnectorWriter getConnectorWriter(String name);
 
     /**
      * Get the first connector ready to provide a value to the caller task. The caller
@@ -61,7 +61,7 @@ public interface TaskConnectorManager {
      *                    a useful msg or -1 to wait indefinitely for a msg.
      * @return The selected connector or 'null' if the maxWaitTime has passed and no connector was selected.
      */
-    public ConnectorReader getReadyConnectorReader(List<String> connectors, long maxWaitTime);
+    ConnectorReader getReadyConnectorReader(List<String> connectors, long maxWaitTime);
 
 
     /**
@@ -77,5 +77,5 @@ public interface TaskConnectorManager {
      *                    a useful msg or -1 to wait indefinitely for a msg.
      * @return The selected connector or 'null' if the maxWaitTime has passed and no connector was selected.
      */
-    public ConnectorReader getReadyConnectorReaderWithPriority(List<String> connectors, long maxWaitTime);
+    ConnectorReader getReadyConnectorReaderWithPriority(List<String> connectors, long maxWaitTime);
 }

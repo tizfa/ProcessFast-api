@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../processfast-comparison" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../processfast-mt" vcs="Git" />
   </component>
 </project>

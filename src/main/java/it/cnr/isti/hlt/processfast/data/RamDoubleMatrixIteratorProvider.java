@@ -58,15 +58,9 @@ public class RamDoubleMatrixIteratorProvider implements ImmutableDataSourceItera
 
         public boolean hasNext() {
             if (rowIterator) {
-                if (curIdx < matrix.length)
-                    return true;
-                else
-                    return false;
+                return curIdx < matrix.length;
             } else {
-                if (curIdx < matrix[0].length)
-                    return true;
-                else
-                    return false;
+                return curIdx < matrix[0].length;
             }
         }
 

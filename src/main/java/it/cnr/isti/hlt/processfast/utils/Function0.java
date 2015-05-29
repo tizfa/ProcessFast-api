@@ -32,5 +32,5 @@ public interface Function0<O> {
 	 * 
 	 * @return The output of the function.
 	 */
-	public O call();
+	O call();
 }

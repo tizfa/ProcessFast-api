@@ -46,7 +46,7 @@ public interface Dictionary extends ReadableDictionary {
 	 * @param data The data to be stored.
 	 * @return This dictionary.
 	 */
-	public <T extends Serializable> Dictionary put(String key, T data);
+	<T extends Serializable> Dictionary put(String key, T data);
 	
 	
 	/**
@@ -56,7 +56,7 @@ public interface Dictionary extends ReadableDictionary {
 	 * @param map The map of values to add.
 	 * @return This dictionary.
 	 */
-	public <T extends Serializable> Dictionary putAll(Map<String, T> map);
+	<T extends Serializable> Dictionary putAll(Map<String, T> map);
 	
 	
 	
@@ -68,5 +68,5 @@ public interface Dictionary extends ReadableDictionary {
 	 * @param key The key to search.
 	 * @return This dictionary.
 	 */
-	public Dictionary remove(String key);
+	Dictionary remove(String key);
 }
