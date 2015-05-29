@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPartitionableDataset.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPartitionableDataset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsCollectionStorageIterator.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsCollectionStorageIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsSortedSetStorageIterator.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsSortedSetStorageIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsStorageManager.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsStorageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsStorageManagerProvider.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsStorageManagerProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/processfast-mt.iml" afterPath="$PROJECT_DIR$/../processfast-mt/processfast-mt.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="processfast-api.iws" />
@@ -540,7 +533,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432935239125</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Cleaned code.&#10;- Added support for prefetching data in PD operations.">
+      <created>1432935362021</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1432935362021</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,7 +553,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3219512" sideWeight="0.53625375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296131" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3219512" sideWeight="0.46374622" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3219512" sideWeight="0.46374622" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -587,7 +586,8 @@
     <MESSAGE value="Updated code." />
     <MESSAGE value="Inserted copyright note." />
     <MESSAGE value="Cleaned code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned code." />
+    <MESSAGE value="- Cleaned code.&#10;- Added support for prefetching data in PD operations." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Cleaned code.&#10;- Added support for prefetching data in PD operations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
