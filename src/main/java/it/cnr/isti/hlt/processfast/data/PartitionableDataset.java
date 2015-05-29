@@ -46,7 +46,7 @@ public interface PartitionableDataset<T extends Serializable> {
      * the system is free to choose to perform next computations either locally or remotely
 	 * @return This partitionable dataset.
 	 */
-	public PartitionableDataset<T> enableLocalComputation(boolean enable);
+	PartitionableDataset<T> enableLocalComputation(boolean enable);
 	
 	
 	/**
@@ -56,7 +56,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param partitionSize The number of items assigned to a partition.
 	 * @return This partitionable dataset.
 	 */
-	public PartitionableDataset<T> withPartitionSize(int partitionSize);
+	PartitionableDataset<T> withPartitionSize(int partitionSize);
 
 	
 	/**
@@ -66,7 +66,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @return A new partitionable dataset containing the current results coming from current configuration of this
      * partitionable dataset.
 	 */
-	public PartitionableDataset<T> cache(CacheType cacheType);
+	PartitionableDataset<T> cache(CacheType cacheType);
 	
 	
 	
@@ -80,7 +80,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param func The function to apply.
 	 * @return This partitionable dataset including data available after the call of "func".
 	 */
-	public <Out extends Serializable> PartitionableDataset<Out> map(PDFunction<T, Out> func);
+	<Out extends Serializable> PartitionableDataset<Out> map(PDFunction<T, Out> func);
 	
 	/**
 	 * Map each collection value to a couple [key,value].
@@ -88,7 +88,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param func The transformation function to apply.
 	 * @return This partitionable dataset containing couples [key, value].
 	 */
-	public <K extends Serializable,V extends Serializable> PairPartitionableDataset<K, V> mapPair(PDPairFunction<T, K, V> func);
+	<K extends Serializable, V extends Serializable> PairPartitionableDataset<K, V> mapPair(PDPairFunction<T, K, V> func);
 	
 	
 	/**
@@ -97,7 +97,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param func The filter function.
 	 * @return This partitionable dataset including only the items matching (value equals to 'true') the filter function.
 	 */
-	public PartitionableDataset<T> filter(PDFunction<T, Boolean> func);
+	PartitionableDataset<T> filter(PDFunction<T, Boolean> func);
 	
 	
 	
@@ -110,7 +110,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param func The function to apply.
 	 * @return This partitionable dataset including data available after the call of "func".
 	 */
-	public <Out extends Serializable> PartitionableDataset<Out> mapFlat(PDFunction<T, Iterator<Out>> func);
+	<Out extends Serializable> PartitionableDataset<Out> mapFlat(PDFunction<T, Iterator<Out>> func);
 	
 	
 	/**
@@ -122,7 +122,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @return This partitionable dataset containing the union of this dataset with the specified
 	 * dataset.
 	 */
-	public  PartitionableDataset<T> union(PartitionableDataset<T> dataset);
+	PartitionableDataset<T> union(PartitionableDataset<T> dataset);
 
 
 
@@ -136,7 +136,7 @@ public interface PartitionableDataset<T extends Serializable> {
      * @return This partitionable dataset containing the union of this dataset with the specified
      * dataset.
      */
-    public  <T1 extends Serializable> PartitionableDataset<Pair<T,T1>> pair(PartitionableDataset<T1> dataset);
+	<T1 extends Serializable> PartitionableDataset<Pair<T, T1>> pair(PartitionableDataset<T1> dataset);
 
 
 	
@@ -148,7 +148,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param dataset The dataset to intersect with.
 	 * @return This partitionable dataset containing the intersection of the data.
 	 */
-	public PartitionableDataset<T> intersection(PartitionableDataset<T> dataset);
+	PartitionableDataset<T> intersection(PartitionableDataset<T> dataset);
 
 
     /**
@@ -157,7 +157,7 @@ public interface PartitionableDataset<T extends Serializable> {
      *
      * @return This partitionable dataset.
      */
-	public PartitionableDataset<T> distinct();
+	PartitionableDataset<T> distinct();
 
 
     /**
@@ -168,7 +168,7 @@ public interface PartitionableDataset<T extends Serializable> {
      *                      descending order.
      * @return This partitionable dataset.
      */
-    public PartitionableDataset<T> sort(boolean sortAscending);
+	PartitionableDataset<T> sort(boolean sortAscending);
 	
 	
 	/**
@@ -177,7 +177,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param func The function that associate each item to a specific key.
 	 * @return A new partitionable dataset with items grouped by key.
 	 */
-	public <K extends Serializable> PairPartitionableDataset<K,DataIterable<T>> groupBy(PDFunction<T,K> func);
+	<K extends Serializable> PairPartitionableDataset<K, DataIterable<T>> groupBy(PDFunction<T, K> func);
 	
 	
 	
@@ -189,7 +189,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @return A new  partitionable dataset containing the cartesian product between
 	 * this collection and the specified dataset.
 	 */
-	public <U extends Serializable> PairPartitionableDataset<T, U> cartesian(PartitionableDataset<U> dataset);
+	<U extends Serializable> PairPartitionableDataset<T, U> cartesian(PartitionableDataset<U> dataset);
 	
 	
 	
@@ -203,11 +203,12 @@ public interface PartitionableDataset<T extends Serializable> {
 	/**
 	 * Reduce all items to a single result by using an associative and commutative function applied as
 	 * a binary operator.
-	 * 
-	 * @param func The function to apply.
+	 *
+	 * @param func The function to apply. The first input parameter is the accumulator, while the second
+	 *             is the other value to process.
 	 * @return The result coming from cumulative computation of "func".
 	 */
-	public T reduce(PDFunction2<T, T, T> func);
+	T reduce(PDFunction2<T, T, T> func);
 	
 	
 	
@@ -217,7 +218,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * 
 	 * @return The items contained in this collection.
 	 */
-	public List<T> collect();
+	List<T> collect();
 	
 	
 	
@@ -226,7 +227,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * 
 	 * @return The number of items in the collection.
 	 */
-	public long count();
+	long count();
 
 
     /**
@@ -270,7 +271,7 @@ public interface PartitionableDataset<T extends Serializable> {
      * @param func The function to apply.
      * @return This partitionable dataset including data available after the call of "func".
      */
-    public  void processEach(PDProcedure<T> func);
+	void processEach(PDProcedure<T> func);
 
 
     /**
