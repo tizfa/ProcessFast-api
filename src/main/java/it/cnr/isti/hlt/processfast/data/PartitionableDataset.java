@@ -44,7 +44,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @param enable If true the system must perform the next transformations
 	 * and data computations locally on the same machine of the caller task, if false
      * the system is free to choose to perform next computations either locally or remotely
-	 * @return This partitionable dataset.
+	 * @return A new partitionable dataset.
 	 */
 	PartitionableDataset<T> enableLocalComputation(boolean enable);
 	
@@ -52,9 +52,9 @@ public interface PartitionableDataset<T extends Serializable> {
 	/**
 	 * Suggest to the runtime how to size each partition of the dataset. Each partition
 	 * will be processed in RAM by a set of processors.
-	 * 
-	 * @param partitionSize The number of items assigned to a partition.
-	 * @return This partitionable dataset.
+	 *
+	 * @param partitionSize The total number of items assigned to a partition.
+	 * @return A new partitionable dataset.
 	 */
 	PartitionableDataset<T> withPartitionSize(int partitionSize);
 
@@ -78,7 +78,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * 
 	 * 
 	 * @param func The function to apply.
-	 * @return This partitionable dataset including data available after the call of "func".
+	 * @return A new partitionable dataset including data available after the call of "func".
 	 */
 	<Out extends Serializable> PartitionableDataset<Out> map(PDFunction<T, Out> func);
 	
@@ -86,7 +86,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * Map each collection value to a couple [key,value].
 	 * 
 	 * @param func The transformation function to apply.
-	 * @return This partitionable dataset containing couples [key, value].
+	 * @return A new partitionable dataset containing couples [key, value].
 	 */
 	<K extends Serializable, V extends Serializable> PairPartitionableDataset<K, V> mapPair(PDPairFunction<T, K, V> func);
 	
@@ -95,7 +95,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * Return a new data collection containing only the items matching the filter function.
 	 * 
 	 * @param func The filter function.
-	 * @return This partitionable dataset including only the items matching (value equals to 'true') the filter function.
+	 * @return A new partitionable dataset including only the items matching (value equals to 'true') the filter function.
 	 */
 	PartitionableDataset<T> filter(PDFunction<T, Boolean> func);
 	
@@ -108,7 +108,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 *
 	 *
 	 * @param func The function to apply.
-	 * @return This partitionable dataset including data available after the call of "func".
+	 * @return A new partitionable dataset including data available after the call of "func".
 	 */
 	<Out extends Serializable> PartitionableDataset<Out> mapFlat(PDFunction<T, Iterator<Out>> func);
 	
@@ -119,7 +119,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * checked according to equals() and hashCode() methods. 
 	 * 
 	 * @param dataset The dataset to merge with.
-	 * @return This partitionable dataset containing the union of this dataset with the specified
+	 * @return A new partitionable dataset containing the union of this dataset with the specified
 	 * dataset.
 	 */
 	PartitionableDataset<T> union(PartitionableDataset<T> dataset);
@@ -133,8 +133,8 @@ public interface PartitionableDataset<T extends Serializable> {
      * then the computed dataset will have a size equals to min(count(), dataset.count()).
      *
      * @param dataset The dataset to merge with.
-     * @return This partitionable dataset containing the union of this dataset with the specified
-     * dataset.
+	 * @return A new partitionable dataset containing the union of this dataset with the specified
+	 * dataset.
      */
 	<T1 extends Serializable> PartitionableDataset<Pair<T, T1>> pair(PartitionableDataset<T1> dataset);
 
@@ -146,7 +146,7 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * checked according to equals() and hashCode() methods. 
 	 * 
 	 * @param dataset The dataset to intersect with.
-	 * @return This partitionable dataset containing the intersection of the data.
+	 * @return A new partitionable dataset containing the intersection of the data.
 	 */
 	PartitionableDataset<T> intersection(PartitionableDataset<T> dataset);
 
@@ -155,8 +155,8 @@ public interface PartitionableDataset<T extends Serializable> {
      * Compute a partitionable dataset containing only distinct values. The items are
      * matched using {@link T#equals(Object)} method.
      *
-     * @return This partitionable dataset.
-     */
+	 * @return A new partitionable dataset.
+	 */
 	PartitionableDataset<T> distinct();
 
 
@@ -166,8 +166,8 @@ public interface PartitionableDataset<T extends Serializable> {
      *
      * @param sortAscending True to sort data in ascending order, false to sort data in
      *                      descending order.
-     * @return This partitionable dataset.
-     */
+	 * @return A new partitionable dataset.
+	 */
 	PartitionableDataset<T> sort(boolean sortAscending);
 	
 	
