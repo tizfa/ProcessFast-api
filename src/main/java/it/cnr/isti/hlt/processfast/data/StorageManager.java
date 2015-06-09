@@ -83,59 +83,7 @@ public interface StorageManager {
 	 * the destination storage.
 	 */
 	void flushData();
-	
-	
-	/**
-	 * Exec atomically the specified set of operations on this storage manager. The
-	 * execution of the operations is done asynchronously respect to
-	 * the method call. To maximize throughput, each set of operations will be
-	 * executed optimistically. In case of data conflicts, the system will abort
-	 * the considered set of operations and will retry to perform it until successful completion.
-	 * 
-	 * @param inputData The input data dictionary.
-	 * @param operations The set of operations to be executed.
-	 */
-	ValuePromise<Void> atomic(ReadableDictionary inputData, AtomicOperationsSet operations);
 
-
-    /**
-     * Exec atomically the specified set of operations on this storage manager. The
-     * execution of the operations is done asynchronously respect to
-     * the method call. To maximize throughput, each set of operations will be
-     * executed optimistically. In case of data conflicts, the system will abort
-     * the considered set of operations and will retry to perform it until successful completion.
-     *
-     * @param operations The set of operations to be executed.
-     */
-	ValuePromise<Void> atomic(AtomicOperationsSet operations);
-
-	
-	/**
-	 * Exec atomically the specified set of operations on this storage manager. The execution of
-	 * the operations is done synchronously and can return output data to the caller in the
-	 * form of a data dictionary. To maximize throughput, each set of operations will be
-	 * executed optimistically. In case of data conflicts, the system will abort
-	 * the considered set of operations and will retry to perform it until successful completion.
-	 * 
-	 * @param inputData The input data dictionary.
-	 * @param operations The set of operations to be executed.
-	 * @return The output data from the set of operations executed.
-	 */
-	ValuePromise<ReadableDictionary> atomicGet(ReadableDictionary inputData, AtomicGetOperationsSet operations);
-
-
-
-    /**
-     * Exec atomically the specified set of operations on this storage manager. The execution of
-     * the operations is done synchronously and can return output data to the caller in the
-     * form of a data dictionary. To maximize throughput, each set of operations will be
-     * executed optimistically. In case of data conflicts, the system will abort
-     * the considered set of operations and will retry to perform it until successful completion.
-     *
-     * @param operations The set of operations to be executed.
-     * @return The output data from the set of operations executed.
-     */
-	ValuePromise<ReadableDictionary> atomicGet(AtomicGetOperationsSet operations);
 
 
     /**
