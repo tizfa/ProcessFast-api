@@ -32,7 +32,7 @@ public class ArrayDataSourceIteratorProvider<T extends Serializable> implements 
 
     private final long numBufferedItems;
 
-    ArrayDataSourceIteratorProvider(Array<T> array, long numBufferedItems) {
+    public ArrayDataSourceIteratorProvider(Array<T> array, long numBufferedItems) {
         if (array == null)
             throw new NullPointerException("The specified array is 'null'");
         if (numBufferedItems < 1)

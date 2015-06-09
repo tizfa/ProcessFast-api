@@ -36,7 +36,8 @@ public class ArrayIterator<T extends Serializable> implements Iterator<T> {
     private long numTotalItemsRead;
     private int numCurrentItemsRead;
     private long sizeArray;
-    ArrayIterator(Array<T> array, long numBufferedItems) {
+
+    public ArrayIterator(Array<T> array, long numBufferedItems) {
         if (array == null)
             throw new NullPointerException("The array is 'null'");
         if (numBufferedItems < 1)

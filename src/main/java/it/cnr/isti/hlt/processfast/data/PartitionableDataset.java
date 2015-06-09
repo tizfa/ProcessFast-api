@@ -28,7 +28,7 @@ import java.util.List;
 
 
 /**
- * A partitionable dataset. 
+ * A partitionable dataset.
  * 
  * @author Tiziano Fagni (tiziano.fagni@isti.cnr.it)
  * @since 1.0.0
@@ -111,8 +111,18 @@ public interface PartitionableDataset<T extends Serializable> {
 	 * @return A new partitionable dataset including data available after the call of "func".
 	 */
 	<Out extends Serializable> PartitionableDataset<Out> mapFlat(PDFunction<T, Iterator<Out>> func);
-	
-	
+
+
+	/**
+	 * Apply the specified function to every item in the data collection and returns a
+	 * new dataset with where each item is mapped to 0 or more items.
+	 *
+	 * @param func The function to apply.
+	 * @return A new partitionable dataset including data available after the call of "func".
+	 */
+	<K extends Serializable, V extends Serializable> PairPartitionableDataset<K, V> mapPairFlat(PDFunction<T, Iterator<Pair<K, V>>> func);
+
+
 	/**
 	 * Return a new data collection containing the union of this dataset with the specified
 	 * dataset. The resulting dataset may contains duplicate items. The equality between items is

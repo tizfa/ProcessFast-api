@@ -37,7 +37,7 @@ public class ArrayPairDataSourceIteratorProvider<T extends Serializable> impleme
 
     private final long numBufferedItems;
 
-    ArrayPairDataSourceIteratorProvider(Array<T> array, long numBufferedItems) {
+    public ArrayPairDataSourceIteratorProvider(Array<T> array, long numBufferedItems) {
         if (array == null)
             throw new NullPointerException("The specified array is 'null'");
         if (numBufferedItems < 1)
