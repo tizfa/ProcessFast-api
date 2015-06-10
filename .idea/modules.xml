@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" filepath="$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" />
       <module fileurl="file://$PROJECT_DIR$/../processfast-mt/processfast-mt.iml" filepath="$PROJECT_DIR$/../processfast-mt/processfast-mt.iml" />
       <module fileurl="file://$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" filepath="$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../processfast-storage-mapdb/processfast-storage-mapdb.iml" filepath="$PROJECT_DIR$/../processfast-storage-mapdb/processfast-storage-mapdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" filepath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" />
     </modules>
   </component>

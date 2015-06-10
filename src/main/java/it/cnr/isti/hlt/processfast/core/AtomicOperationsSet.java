@@ -16,10 +16,10 @@
  * *******************
  */
 
-package it.cnr.isti.hlt.processfast.data;
+package it.cnr.isti.hlt.processfast.core;
 
 /**
- * A set of operations on a storage manager to be executed without returning results.
+ * A set of operations on a specific critical section to be executed without returning results.
  * 
  * @author Tiziano Fagni (tiziano.fagni@isti.cnr.it)
  * @since 1.0.0
@@ -31,5 +31,5 @@ public interface AtomicOperationsSet {
 	 * 
 	 * @param ctx The context to use.
 	 */
-	void call(StorageManagerAtomicContext ctx);
+	void call(TaskContext ctx);
 }

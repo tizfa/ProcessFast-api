@@ -19,8 +19,6 @@
 package it.cnr.isti.hlt.processfast.core;
 
 import it.cnr.isti.hlt.processfast.connector.ValuePromise;
-import it.cnr.isti.hlt.processfast.data.AtomicGetOperationsSet;
-import it.cnr.isti.hlt.processfast.data.AtomicOperationsSet;
 import it.cnr.isti.hlt.processfast.data.ReadableDictionary;
 import it.cnr.isti.hlt.processfast.data.StorageManager;
 

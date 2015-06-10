@@ -16,12 +16,12 @@
  * *******************
  */
 
-package it.cnr.isti.hlt.processfast.data;
+package it.cnr.isti.hlt.processfast.core;
 
-import it.cnr.isti.hlt.processfast.connector.ValuePromise;
+import it.cnr.isti.hlt.processfast.data.ReadableDictionary;
 
 /**
- * A set of operations to be executed on a storage manager which return some results
+ * A set of operations to be executed on a specific critical section which return some results
  * stored on a dictionary.
  * 
  * @author Tiziano Fagni (tiziano.fagni@isti.cnr.it)
@@ -35,5 +35,5 @@ public interface AtomicGetOperationsSet {
 	 * @param ctx The context to use.
 	 * @return The output data to be returned from the set of operations executed.
 	 */
-	ReadableDictionary call(StorageManagerAtomicContext ctx);
+	ReadableDictionary call(TaskContext ctx);
 }

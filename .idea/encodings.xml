@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/../processfast-gpars" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../processfast-mt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../processfast-storage-foundationdb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../processfast-storage-mapdb" charset="UTF-8" />
   </component>
 </project>

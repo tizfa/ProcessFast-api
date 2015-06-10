@@ -18,7 +18,7 @@
 
 package it.cnr.isti.hlt.processfast.data;
 
-import it.cnr.isti.hlt.processfast.connector.ValuePromise;
+import it.cnr.isti.hlt.processfast.core.AtomicGetOperationsSet;
 
 import java.util.List;
 
