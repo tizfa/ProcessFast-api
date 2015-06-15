@@ -107,10 +107,8 @@ public abstract class AbstractArrayTest {
         Assert.assertTrue(ar.getValue(0) == 1.5);
         ar.setValue(0, 1.6);
         Assert.assertTrue(ar.getValue(0) == 1.6);
-        ar.enableLocalCache(false, 0, 1);
-        Assert.assertTrue(ar.getValue(0) == 1.5);
         ar.enableLocalCache(true, 0, 1);
-        Assert.assertTrue(ar.getValue(0) == 1.5);
+        Assert.assertTrue(ar.getValue(0) == 1.6);
         ar.setValue(0, 1.6);
         Assert.assertTrue(ar.getValue(0) == 1.6);
         ar.flush();

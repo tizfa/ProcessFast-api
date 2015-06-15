@@ -206,8 +206,8 @@ public interface Array<T extends Serializable> {
     ImmutableDataSourceIteratorProvider<Pair<Long, T>> asIteratorProviderWithIndex(long numBufferedItems);
 
     /**
-     * Enable or disable local cache on the specified range indexes. The cache is NOT
-     * synchronized with the storage so it is responsibility of the programmer to synchronize all
+     * Enable or disable local cache on the specified range indexes. The cache could NOT
+     * be synchronized with the storage so it is responsibility of the programmer to synchronize all
      * modifications of cached data by calling method {@link #flush()}.
      *
      * @param enabled   True to enable cache, false to disable cache (in this case first remember to

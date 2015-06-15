@@ -25,6 +25,7 @@ package it.cnr.isti.hlt.processfast.data;
  * @since 1.0.0
  */
 public interface StorageManagerProvider {
+
     StorageManager getStorageManager(String clientID);
 
     /**
