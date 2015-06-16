@@ -21,10 +21,6 @@ package it.cnr.isti.hlt.processfast.core;
 
 import it.cnr.isti.hlt.processfast.data.Dictionary;
 import it.cnr.isti.hlt.processfast.utils.Function1;
-import it.cnr.isti.hlt.processfast.utils.Function2;
-import it.cnr.isti.hlt.processfast.utils.Pair;
-
-import java.util.Iterator;
 
 /**
  * A common descriptor for something runnable by the system.

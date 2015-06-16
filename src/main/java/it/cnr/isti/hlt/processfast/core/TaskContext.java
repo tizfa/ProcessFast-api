@@ -20,6 +20,7 @@
 package it.cnr.isti.hlt.processfast.core;
 
 import it.cnr.isti.hlt.processfast.connector.TaskConnectorManager;
+import it.cnr.isti.hlt.processfast.connector.ValuePromise;
 import it.cnr.isti.hlt.processfast.data.*;
 import it.cnr.isti.hlt.processfast.utils.Pair;
 
@@ -139,4 +140,54 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
 	 * @return The task connector manager.
 	 */
 	TaskConnectorManager getConnectorManager();
+
+
+	/**
+	 * Exec atomically the specified set of operations on the running application and in the specified critical section. The
+	 * execution of the operations is done asynchronously respect to
+	 * the method call.
+	 *
+	 * @param criticalSectionName The name of critical section.
+	 * @param inputData           The input data dictionary.
+	 * @param operations          The set of operations to be executed.
+	 */
+	ValuePromise<Void> atomic(String criticalSectionName, ReadableDictionary inputData, AtomicOperationsSet operations);
+
+
+	/**
+	 * Exec atomically the specified set of operations on the running application and in the specified critical section. The
+	 * execution of the operations is done asynchronously respect to
+	 * the method call.
+	 *
+	 * @param criticalSectionName The name of critical section.
+	 * @param operations          The set of operations to be executed.
+	 */
+	ValuePromise<Void> atomic(String criticalSectionName, AtomicOperationsSet operations);
+
+
+	/**
+	 * Exec atomically the specified set of operations on the running application and in the specified critical section. The execution of
+	 * the operations is done synchronously and can return output data to the caller in the
+	 * form of a data dictionary.
+	 *
+	 * @param criticalSectionName The name of critical section.
+	 * @param inputData           The input data dictionary.
+	 * @param operations          The set of operations to be executed.
+	 * @return The output data from the set of operations executed.
+	 */
+	ValuePromise<ReadableDictionary> atomicGet(String criticalSectionName, ReadableDictionary inputData, AtomicGetOperationsSet operations);
+
+
+	/**
+	 * Exec atomically the specified set of operations on the running application and in the specified critical section.
+	 * The execution of the operations is done synchronously and can return output data to the caller in the
+	 * form of a data dictionary. To maximize throughput, each set of operations will be
+	 * executed optimistically. In case of data conflicts, the system will abort
+	 * the considered set of operations and will retry to perform it until successful completion.
+	 *
+	 * @param criticalSectionName The name of critical section.
+	 * @param operations          The set of operations to be executed.
+	 * @return The output data from the set of operations executed.
+	 */
+	ValuePromise<ReadableDictionary> atomicGet(String criticalSectionName, AtomicGetOperationsSet operations);
 }

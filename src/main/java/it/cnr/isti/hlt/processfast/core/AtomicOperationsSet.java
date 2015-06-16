@@ -19,6 +19,8 @@
 
 package it.cnr.isti.hlt.processfast.core;
 
+import it.cnr.isti.hlt.processfast.data.ReadableDictionary;
+
 /**
  * A set of operations on a specific critical section to be executed without returning results.
  * 
@@ -29,8 +31,9 @@ package it.cnr.isti.hlt.processfast.core;
 public interface AtomicOperationsSet {
 	/**
 	 * Call the function.
-	 * 
+	 *
+	 * @param dict The set of data passed to this operations set.
 	 * @param ctx The context to use.
 	 */
-	void call(TaskContext ctx);
+	void call(ReadableDictionary dict, TaskContext ctx);
 }

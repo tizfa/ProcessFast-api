@@ -32,9 +32,10 @@ import it.cnr.isti.hlt.processfast.data.ReadableDictionary;
 public interface AtomicGetOperationsSet {
 	/**
 	 * Call the function to perform the code.
-	 * 
+	 *
+	 * @param dict The set of data passed to this operations set.
 	 * @param ctx The context to use.
 	 * @return The output data to be returned from the set of operations executed.
 	 */
-	ReadableDictionary call(TaskContext ctx);
+	ReadableDictionary call(ReadableDictionary dict, TaskContext ctx);
 }

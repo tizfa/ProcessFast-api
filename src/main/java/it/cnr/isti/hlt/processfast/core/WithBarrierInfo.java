@@ -19,7 +19,6 @@
 
 package it.cnr.isti.hlt.processfast.core;
 
-import it.cnr.isti.hlt.processfast.connector.ConnectorManager;
 import it.cnr.isti.hlt.processfast.data.ReadableDictionary;
 
 /**
