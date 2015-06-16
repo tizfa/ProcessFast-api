@@ -155,11 +155,11 @@ public interface Matrix<T extends Serializable> {
 	 * Get from the specified column in the matrix the values contained in the rows [startRow, endRow).
 	 *
 	 * @param col The column index.
-	 * @param startCol The included start column.
-	 * @param endCol The excluded end column.
+	 * @param startRow The included start row.
+	 * @param endRow The excluded end row.
 	 * @return The set of read values.
 	 */
-	List<T> getColValues(long col, long startCol, long endCol);
+	List<T> getColValues(long col, long startRow, long endRow);
 	
 	
 	/**
