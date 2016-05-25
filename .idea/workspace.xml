@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="Merge branch 'master' of https://github.com/tizfa/processfast-storage-mapdb&#10;&#10;Conflicts:&#10;&#9;pom.xml&#10;&#9;processfast-storage-mapdb.iml&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorage.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java&#10;">
+    <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="Updated code.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" afterPath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBARray.java" afterPath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBARray.java" />
     </list>
     <ignored path="processfast-api.iws" />
@@ -35,8 +33,8 @@
       <file leaf-file-name="KMeansWithPartitionableDatasets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/kmeans/KMeansWithPartitionableDatasets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="322" column="24" selection-start-line="322" selection-start-column="24" selection-end-line="322" selection-end-column="24" />
+            <state relative-caret-position="97">
+              <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1264,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/kmeans/KMeansWithPartitionableDatasets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="322" column="24" selection-start-line="322" selection-start-column="24" selection-end-line="322" selection-end-column="24" />
+        <state relative-caret-position="97">
+          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
           <folding />
         </state>
       </provider>
