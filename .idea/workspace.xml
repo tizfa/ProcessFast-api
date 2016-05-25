@@ -2,47 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="Merge branch 'master' of https://github.com/tizfa/processfast-storage-mapdb&#10;&#10;Conflicts:&#10;&#9;pom.xml&#10;&#9;processfast-storage-mapdb.iml&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorage.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_10_3_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_bijection_avro_2_10_0_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_bijection_core_2_10_0_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_avro_2_10_0_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_bijection_2_10_0_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_remote_2_10_2_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_javakaffee_kryo_serializers_0_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_include_yarn_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mesos_mesos_shaded_protobuf_0_21_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_10_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_10_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_10_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_10_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_10_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_10_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_3_0_20100224.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_client_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" afterPath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDResultsMapStorageGroupByIterator.java" />
@@ -753,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464120990459</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated code.">
+      <created>1464160603656</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464160603656</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -834,9 +800,9 @@
     <MESSAGE value="Cleaned code." />
     <MESSAGE value="- Cleaned code.&#10;- Added support for prefetching data in PD operations." />
     <MESSAGE value="For IntelliJ." />
-    <MESSAGE value="Updated code." />
     <MESSAGE value="Merge branch 'master' of https://github.com/tizfa/processfast-storage-mapdb&#10;&#10;Conflicts:&#10;&#9;pom.xml&#10;&#9;processfast-storage-mapdb.iml&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorage.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tizfa/processfast-storage-mapdb&#10;&#10;Conflicts:&#10;&#9;pom.xml&#10;&#9;processfast-storage-mapdb.iml&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorage.java&#10;&#9;src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java&#10;" />
+    <MESSAGE value="Updated code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
