@@ -88,5 +88,33 @@ public interface PairPartitionableDataset<K extends Serializable, V extends Seri
 	
 	@Override
 	PairPartitionableDataset<K,V> enableLocalComputation(boolean enable);
-	
+
+
+	/**
+	 * Return a RDD containing the just the original pair values.
+	 *
+	 * @return A new RDD containing the just the original pair values.
+	 */
+	PartitionableDataset<V> values();
+
+
+	/**
+	 * Pass each value in the key-value pair PD through a map function without changing the keys.
+	 *
+	 * @param func The map function to be applied to each pair value.
+	 * @param <T>  The resulting type of the map function.
+	 * @return A new RDD containing the changed pair values.
+	 */
+	<T extends Serializable> PairPartitionableDataset<K, T> mapValues(PDFunction<V, T> func);
+
+	PairPartitionableDataset<K, V> distinct();
+
+	/**
+	 * Suggest to the runtime how to size each partition of the dataset. Each partition
+	 * will be processed in RAM by a set of processors.
+	 *
+	 * @param partitionSize The total number of items assigned to a partition.
+	 * @return A new partitionable dataset.
+	 */
+	PairPartitionableDataset<K, V> withPartitionSize(int partitionSize);
 }

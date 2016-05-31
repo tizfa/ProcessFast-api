@@ -22,8 +22,7 @@ package it.cnr.isti.hlt.processfast.data;
 import it.cnr.isti.hlt.processfast.utils.Pair;
 
 import java.io.Serializable;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 /**
  * An iterator provider for an Array whchi returns for each entry the
@@ -49,6 +48,51 @@ public class ArrayPairDataSourceIteratorProvider<T extends Serializable> impleme
 
     public Iterator<Pair<Long, T>> iterator() {
         return new ArrayPairIterator<T>(array.asIterator(numBufferedItems));
+    }
+
+    @Override
+    public boolean sizeEnabled() {
+        return true;
+    }
+
+    @Override
+    public long size() {
+        return array.size();
+    }
+
+    @Override
+    public boolean contains(Pair<Long, T> item) {
+        long s = array.size();
+        for (long i = 0; i < s; i++) {
+            T currentItem = array.getValue(i);
+            if (currentItem.equals(item.getV2()) && item.getV1() == i)
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean containsEnabled() {
+        return true;
+    }
+
+    @Override
+    public Collection<Pair<Long, T>> take(long startFrom, long numItems) {
+        if (startFrom < 0)
+            throw new IllegalArgumentException("The startFrom parameter is < 0");
+        if (numItems < 1)
+            throw new IllegalArgumentException("The numItems parameter is < 1");
+        List<T> values = array.getValues(startFrom, startFrom + numItems);
+        ArrayList<Pair<Long, T>> ret = new ArrayList<>();
+        for (long i = 0; i < values.size(); i++) {
+            ret.add(new Pair<Long, T>(i + startFrom, values.get((int) i)));
+        }
+        return ret;
+    }
+
+    @Override
+    public boolean takeEnabled() {
+        return true;
     }
 
 

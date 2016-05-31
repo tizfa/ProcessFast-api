@@ -39,6 +39,14 @@ public class IndexFileLineIteratorProvider implements ImmutableDataSourceIterato
         public String filename;
         public int lineIndex;
         public String line;
+
+        @Override
+        public boolean equals(Object obj) {
+            if (!(obj instanceof LineInfo))
+                return false;
+            LineInfo li = (LineInfo) obj;
+            return li.line.equals(line) && li.filename.equals(filename) && li.lineIndex == lineIndex;
+        }
     }
 
     private Collection<File> files;
@@ -52,8 +60,61 @@ public class IndexFileLineIteratorProvider implements ImmutableDataSourceIterato
     }
 
 
+
     public Iterator<LineInfo> iterator() {
         return new FileLineIterator(files);
+    }
+
+    @Override
+    public boolean sizeEnabled() {
+        return true;
+    }
+
+    @Override
+    public long size() {
+        Iterator<LineInfo> it = iterator();
+        long count = 0;
+        while (it.hasNext()) {
+            it.next();
+            count++;
+        }
+        return count;
+    }
+
+    @Override
+    public boolean contains(LineInfo item) {
+        Iterator<LineInfo> it = iterator();
+        while (it.hasNext()) {
+            if (item.equals(it.next()))
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean containsEnabled() {
+        return true;
+    }
+
+    @Override
+    public Collection<LineInfo> take(long startFrom, long numItems) {
+        Iterator<LineInfo> it = iterator();
+        long curIdx = 0;
+        ArrayList<LineInfo> out = new ArrayList<>();
+        while (it.hasNext()) {
+            LineInfo li = it.next();
+            if (curIdx >= startFrom && curIdx < (startFrom + numItems))
+                out.add(li);
+            curIdx++;
+            if (curIdx >= startFrom + numItems)
+                break;
+        }
+        return out;
+    }
+
+    @Override
+    public boolean takeEnabled() {
+        return true;
     }
 
 
@@ -122,7 +183,6 @@ public class IndexFileLineIteratorProvider implements ImmutableDataSourceIterato
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("Letto " + f.toString());
             return ret;
         }
     }

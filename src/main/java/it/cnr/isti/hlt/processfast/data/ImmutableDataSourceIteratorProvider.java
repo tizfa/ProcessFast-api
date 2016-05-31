@@ -20,6 +20,7 @@
 package it.cnr.isti.hlt.processfast.data;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.Iterator;
 
 /**
@@ -38,4 +39,56 @@ public interface ImmutableDataSourceIteratorProvider<T extends Serializable> {
      * @return A new iterator over the wrapped immutable dataset.
      */
     Iterator<T> iterator();
+
+
+    /**
+     * Indicate if the data source provider has valid implementation of {@link #size()} method.
+     *
+     * @return True if it has a valid implementation, false otherwise.
+     */
+    boolean sizeEnabled();
+
+    /**
+     * Get the number of items stored on this dataset. This operation could be very costly, depending on the
+     * specific implementation of the data source provider.
+     *
+     * @return The number of items stored on this dataset.
+     */
+    long size();
+
+    /**
+     * Indicate if the specified item is contained in the collection. This operation could be very costly, depending on the
+     * specific implementation of the data source provider.
+     *
+     * @param item The item to check.
+     * @return
+     */
+    boolean contains(T item);
+
+
+    /**
+     * Indicate if the data source provider has valid implementation of {@link #contains(Serializable)} method.
+     *
+     * @return True if it has a valid implementation, false otherwise.
+     */
+    boolean containsEnabled();
+
+
+    /**
+     * Extract a subset of available items in the data source wrapped by this iterator provider.
+     * This operation could be very costly, depending on the
+     * specific implementation of the data source provider.
+     *
+     * @param startFrom The start index of first item to retrieve.
+     * @param numItems  The number of items to retrieve.
+     * @return The requested subset of items.
+     */
+    Collection<T> take(long startFrom, long numItems);
+
+    /**
+     * Indicate if the data source provider has valid implementation of {@link #take(long, long)} method.
+     *
+     * @return True if it has a valid implementation, false otherwise.
+     */
+    boolean takeEnabled();
 }

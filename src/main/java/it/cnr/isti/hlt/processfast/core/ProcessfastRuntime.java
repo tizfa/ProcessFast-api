@@ -21,6 +21,7 @@ package it.cnr.isti.hlt.processfast.core;
 
 
 import it.cnr.isti.hlt.processfast.data.Dictionary;
+import it.cnr.isti.hlt.processfast.data.StorageManager;
 
 /**
  * A generic representation of a Processfast runtime backend.
@@ -58,4 +59,18 @@ public interface ProcessfastRuntime {
     TaskSet createTaskSet();
 
 
+    /**
+     * Get the storage manager associated with this runtime.
+     *
+     * @return The storage manager associated to this runtime.
+     */
+    StorageManager getStorageManager();
+
+
+    /**
+     * Get the used log manager.
+     *
+     * @return The used log manager.
+     */
+    LogManager getLogManager();
 }

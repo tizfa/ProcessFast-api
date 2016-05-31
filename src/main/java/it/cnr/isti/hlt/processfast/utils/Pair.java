@@ -63,4 +63,12 @@ public class Pair<T1, T2> implements Serializable {
     public String toString() {
         return "(V1:"+v1.toString()+", V2:"+v2.toString()+")";
     }
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Pair))
+			return false;
+		Pair<T1, T2> p = (Pair<T1, T2>) obj;
+		return p.getV1().equals(getV1()) && p.getV2().equals(getV2());
+	}
 }

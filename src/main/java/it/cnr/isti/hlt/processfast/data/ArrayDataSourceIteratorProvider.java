@@ -20,6 +20,7 @@
 package it.cnr.isti.hlt.processfast.data;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.Iterator;
 
 /**
@@ -44,5 +45,45 @@ public class ArrayDataSourceIteratorProvider<T extends Serializable> implements 
 
     public Iterator<T> iterator() {
         return array.asIterator(numBufferedItems);
+    }
+
+    @Override
+    public boolean sizeEnabled() {
+        return true;
+    }
+
+    @Override
+    public long size() {
+        return this.array.size();
+    }
+
+    @Override
+    public boolean contains(T item) {
+        long s = array.size();
+        for (long i = 0; i < s; i++) {
+            T currentItem = array.getValue(i);
+            if (currentItem.equals(item))
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean containsEnabled() {
+        return true;
+    }
+
+    @Override
+    public Collection<T> take(long startFrom, long numItems) {
+        if (startFrom < 0)
+            throw new IllegalArgumentException("The startFrom parameter is < 0");
+        if (numItems < 1)
+            throw new IllegalArgumentException("The numItems parameter is < 1");
+        return array.getValues(startFrom, startFrom + numItems);
+    }
+
+    @Override
+    public boolean takeEnabled() {
+        return true;
     }
 }

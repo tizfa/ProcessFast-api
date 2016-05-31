@@ -67,6 +67,42 @@ public class RecursiveFileLineIteratorProvider implements ImmutableDataSourceIte
         return new FileLineIterator(files);
     }
 
+    @Override
+    public boolean sizeEnabled() {
+        return true;
+    }
+
+    @Override
+    public long size() {
+        Iterator<String> it = iterator();
+        long count = 0;
+        while (it.hasNext()) {
+            it.next();
+            count++;
+        }
+        return count;
+    }
+
+    @Override
+    public boolean contains(String item) {
+        return false;
+    }
+
+    @Override
+    public boolean containsEnabled() {
+        return false;
+    }
+
+    @Override
+    public Collection<String> take(long startFrom, long numItems) {
+        return null;
+    }
+
+    @Override
+    public boolean takeEnabled() {
+        return false;
+    }
+
 
     private static class FileLineIterator implements Iterator<String> {
 

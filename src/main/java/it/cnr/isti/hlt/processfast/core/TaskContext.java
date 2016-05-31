@@ -112,7 +112,7 @@ public interface TaskContext extends SystemContext, TaskIdentifier {
 	 * @param dataSources The set of datasources.
 	 * @return A partitionable dataset.
 	 */
-	<K extends Serializable,V extends Serializable> PairPartitionableDataset<K,DataIterable<V>> createPairPartitionableDataset(Iterator<ImmutableDataSourceIteratorProvider<V>> dataSources);
+	<V extends Serializable> PairPartitionableDataset<Integer, DataIterable<V>> createPairPartitionableDataset(Iterator<ImmutableDataSourceIteratorProvider<V>> dataSources);
 	
 	
 	/**

@@ -25,6 +25,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 
 /**
@@ -55,5 +57,57 @@ public class StorageStreamIteratorProvider implements
     @Override
     public Iterator<Pair<Integer, String>> iterator() {
         return new StringStreamDataSourceIterator(ds.getInputStreamForResource(dsName), encoding);
+    }
+
+    @Override
+    public boolean sizeEnabled() {
+        return true;
+    }
+
+    @Override
+    public long size() {
+        Iterator<Pair<Integer, String>> it = iterator();
+        long count = 0;
+        while (it.hasNext()) {
+            it.next();
+            count++;
+        }
+        return count;
+    }
+
+    @Override
+    public boolean contains(Pair<Integer, String> item) {
+        Iterator<Pair<Integer, String>> it = iterator();
+        while (it.hasNext()) {
+            if (item.equals(it.next()))
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean containsEnabled() {
+        return true;
+    }
+
+    @Override
+    public Collection<Pair<Integer, String>> take(long startFrom, long numItems) {
+        Iterator<Pair<Integer, String>> it = iterator();
+        long curIdx = 0;
+        ArrayList<Pair<Integer, String>> out = new ArrayList<>();
+        while (it.hasNext()) {
+            Pair<Integer, String> item = it.next();
+            if (curIdx >= startFrom && curIdx < (startFrom + numItems))
+                out.add(item);
+            curIdx++;
+            if (curIdx >= startFrom + numItems)
+                break;
+        }
+        return out;
+    }
+
+    @Override
+    public boolean takeEnabled() {
+        return true;
     }
 }
