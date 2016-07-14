@@ -2,10 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edfd1c4d-7050-419f-a1f6-4885aba67997" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/pagerank/ProcessFastPageRank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/pagerank/SparkPageRank.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_remote_2_10_2_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_8_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_10_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_10_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_10_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_10_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_10_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_akka_akka_actor_2_10_2_3_4_spark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_akka_akka_remote_2_10_2_3_4_spark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_akka_akka_slf4j_2_10_2_3_4_spark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_protobuf_protobuf_java_2_5_0_spark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_0_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_client_0_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/test/MatrixProductPDProcessEach.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/test/MatrixProductPDProcessEachJava.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDataContext.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/core/TaskDataContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Array.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/Array.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PairPartitionableDataset.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PairPartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PartitionableDataset.java" afterPath="$PROJECT_DIR$/src/main/java/it/cnr/isti/hlt/processfast/data/PartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/pom.xml" afterPath="$PROJECT_DIR$/../processfast-comparison/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/processfast-comparison.iml" afterPath="$PROJECT_DIR$/../processfast-comparison/processfast-comparison.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" afterPath="$PROJECT_DIR$/../processfast-comparison/processfast_comparison.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/kmeans/KMeansWithPartitionableDatasets.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/kmeans/KMeansWithPartitionableDatasets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile2.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachFile2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLine.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLineMapReduce.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountEachLineMapReduce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountFileStreamingPD.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountFileStreamingPD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreaming.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreaming.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreamingPD.java" afterPath="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ProcessFast_WordCountLineStreamingPD.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" afterPath="$PROJECT_DIR$/../processfast-gpars/processfast-gpars.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/core/MTProcessfastRuntime.groovy" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/core/MTProcessfastRuntime.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/core/MTTaskContext.groovy" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/core/MTTaskContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/data/MTTaskDataContext.groovy" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/data/MTTaskDataContext.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/test/MatrixProductPD.groovy" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/groovy/it/cnr/isti/hlt/processfast_mt/test/MatrixProductPD.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPairPartitionableDataset.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPairPartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPartitionableDataset.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/MTPartitionableDataset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCartesianTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCartesianTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCollectAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCollectAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDContainsAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDContainsAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCountAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDCountAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDDistinctTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDDistinctTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDFilterTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDFilterTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDGroupByKeyTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDGroupByKeyTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDGroupByTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDGroupByTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDIntersectionTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDIntersectionTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDJoinTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDJoinTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapFlatTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapFlatTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapPairFlatTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapPairFlatTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapPairTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapPairTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDMapTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDPairTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDPairTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDProcessAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDProcessAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDReduceAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDReduceAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDReduceByKeyTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDReduceByKeyTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDSortByKeyTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDSortByKeyTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDSortTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDSortTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDTakeAction.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDTakeAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDUnionTransformation.java" afterPath="$PROJECT_DIR$/../processfast-mt/src/main/java/it/cnr/isti/hlt/processfast_mt/data/PDUnionTransformation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/processfast-storage-foundationdb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBArrayTest.groovy" afterPath="$PROJECT_DIR$/../processfast-storage-foundationdb/src/test/groovy/it/cnr/isti/hlt/processfast_storage_foundationdb/test/FoundationDBArrayTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java" afterPath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java" afterPath="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java" />
     </list>
     <ignored path="processfast-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,32 +109,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapDBFileStorageManagerProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapDBRamStorageManagerProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AbstractMapDBStorageManagerProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#1580#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1267#1268#0" expanded="false" />
+                <element signature="e#1297#1298#0" expanded="false" />
+                <element signature="e#1546#1547#0" expanded="false" />
+                <element signature="e#1576#1577#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,17 +141,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2380">
               <caret line="167" column="0" selection-start-line="159" selection-start-column="8" selection-end-line="167" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#6198#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3367#3368#0" expanded="false" />
+                <element signature="e#3415#3416#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,18 +156,108 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2227">
               <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#11375#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2480#2481#0" expanded="false" />
+                <element signature="e#2514#2515#0" expanded="false" />
+                <element signature="e#3977#3978#0" expanded="false" />
+                <element signature="e#4023#4024#0" expanded="false" />
+                <element signature="e#4076#4077#0" expanded="false" />
+                <element signature="e#4123#4124#0" expanded="false" />
+                <element signature="e#9537#9538#0" expanded="false" />
+                <element signature="e#9564#9565#0" expanded="false" />
+                <element signature="e#9636#9637#0" expanded="false" />
+                <element signature="e#9664#9665#0" expanded="false" />
+                <element signature="e#9733#9734#0" expanded="false" />
+                <element signature="e#9760#9761#0" expanded="false" />
+                <element signature="e#9896#9897#0" expanded="false" />
+                <element signature="e#9923#9924#0" expanded="false" />
+                <element signature="e#9985#9986#0" expanded="false" />
+                <element signature="e#10012#10013#0" expanded="false" />
+                <element signature="e#10084#10085#0" expanded="false" />
+                <element signature="e#10112#10113#0" expanded="false" />
+                <element signature="e#10181#10182#0" expanded="false" />
+                <element signature="e#10208#10209#0" expanded="false" />
+                <element signature="e#10344#10345#0" expanded="false" />
+                <element signature="e#10371#10372#0" expanded="false" />
+                <element signature="e#11339#11340#0" expanded="false" />
+                <element signature="e#11371#11372#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapDBArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#14662#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2384#2385#0" expanded="false" />
+                <element signature="e#2458#2459#0" expanded="false" />
+                <element signature="e#2653#2654#0" expanded="false" />
+                <element signature="e#2734#2735#0" expanded="false" />
+                <element signature="e#2941#2942#0" expanded="false" />
+                <element signature="e#3016#3017#0" expanded="false" />
+                <element signature="e#3213#3214#0" expanded="false" />
+                <element signature="e#3240#3241#0" expanded="false" />
+                <element signature="e#8943#8944#0" expanded="false" />
+                <element signature="e#8972#8973#0" expanded="false" />
+                <element signature="e#10088#10089#0" expanded="false" />
+                <element signature="e#10155#10156#0" expanded="false" />
+                <element signature="e#14316#14317#0" expanded="false" />
+                <element signature="e#14344#14345#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spark_WordCountEachFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#5802#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spark_WordCountEachLine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapDBArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java">
+      <file leaf-file-name="JavaRDDLike.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="1564">
+              <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#837#861#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlatMapFunction.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1-sources.jar!/org/apache/spark/api/java/function/FlatMapFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#1070#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,7 +273,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../processfast-storage-mapdb" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../processfast-comparison" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -159,6 +308,7 @@
         <option value="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java" />
         <option value="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java" />
         <option value="$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorage.java" />
+        <option value="$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ExampleSparkWordCount.java" />
       </list>
     </option>
   </component>
@@ -276,6 +426,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -296,22 +457,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../processfast-storage-mapdb" />
-    <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -431,8 +580,70 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="processfast-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
       <method />
     </configuration>
@@ -442,6 +653,36 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -470,6 +711,49 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
   </component>
@@ -552,16 +836,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183154" sideWeight="0.5686901" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31894013" sideWeight="0.5761448" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183154" sideWeight="0.4313099" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31894013" sideWeight="0.42385516" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -614,51 +898,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBFileStorageManagerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/AbstractMapDBStorageManagerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="258" column="21" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBStorageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="167" column="0" selection-start-line="159" selection-start-column="8" selection-end-line="167" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +909,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#11375#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2480#2481#0" expanded="false" />
+            <element signature="e#2514#2515#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="false" />
+            <element signature="e#4023#4024#0" expanded="false" />
+            <element signature="e#4076#4077#0" expanded="false" />
+            <element signature="e#4123#4124#0" expanded="false" />
+            <element signature="e#9537#9538#0" expanded="false" />
+            <element signature="e#9564#9565#0" expanded="false" />
+            <element signature="e#9636#9637#0" expanded="false" />
+            <element signature="e#9664#9665#0" expanded="false" />
+            <element signature="e#9733#9734#0" expanded="false" />
+            <element signature="e#9760#9761#0" expanded="false" />
+            <element signature="e#9896#9897#0" expanded="false" />
+            <element signature="e#9923#9924#0" expanded="false" />
+            <element signature="e#9985#9986#0" expanded="false" />
+            <element signature="e#10012#10013#0" expanded="false" />
+            <element signature="e#10084#10085#0" expanded="false" />
+            <element signature="e#10112#10113#0" expanded="false" />
+            <element signature="e#10181#10182#0" expanded="false" />
+            <element signature="e#10208#10209#0" expanded="false" />
+            <element signature="e#10344#10345#0" expanded="false" />
+            <element signature="e#10371#10372#0" expanded="false" />
+            <element signature="e#11339#11340#0" expanded="false" />
+            <element signature="e#11371#11372#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +945,22 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#14662#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2458#2459#0" expanded="false" />
+            <element signature="e#2653#2654#0" expanded="false" />
+            <element signature="e#2734#2735#0" expanded="false" />
+            <element signature="e#2941#2942#0" expanded="false" />
+            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="e#3213#3214#0" expanded="false" />
+            <element signature="e#3240#3241#0" expanded="false" />
+            <element signature="e#8943#8944#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+            <element signature="e#10088#10089#0" expanded="false" />
+            <element signature="e#10155#10156#0" expanded="false" />
+            <element signature="e#14316#14317#0" expanded="false" />
+            <element signature="e#14344#14345#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +983,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#1580#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1297#1298#0" expanded="false" />
+            <element signature="e#1546#1547#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +1006,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="171" column="9" selection-start-line="159" selection-start-column="8" selection-end-line="171" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#0#6198#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3367#3368#0" expanded="false" />
+            <element signature="e#3415#3416#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +1026,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#11375#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2480#2481#0" expanded="false" />
+            <element signature="e#2514#2515#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="false" />
+            <element signature="e#4023#4024#0" expanded="false" />
+            <element signature="e#4076#4077#0" expanded="false" />
+            <element signature="e#4123#4124#0" expanded="false" />
+            <element signature="e#9537#9538#0" expanded="false" />
+            <element signature="e#9564#9565#0" expanded="false" />
+            <element signature="e#9636#9637#0" expanded="false" />
+            <element signature="e#9664#9665#0" expanded="false" />
+            <element signature="e#9733#9734#0" expanded="false" />
+            <element signature="e#9760#9761#0" expanded="false" />
+            <element signature="e#9896#9897#0" expanded="false" />
+            <element signature="e#9923#9924#0" expanded="false" />
+            <element signature="e#9985#9986#0" expanded="false" />
+            <element signature="e#10012#10013#0" expanded="false" />
+            <element signature="e#10084#10085#0" expanded="false" />
+            <element signature="e#10112#10113#0" expanded="false" />
+            <element signature="e#10181#10182#0" expanded="false" />
+            <element signature="e#10208#10209#0" expanded="false" />
+            <element signature="e#10344#10345#0" expanded="false" />
+            <element signature="e#10371#10372#0" expanded="false" />
+            <element signature="e#11339#11340#0" expanded="false" />
+            <element signature="e#11371#11372#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +1062,22 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#14662#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2458#2459#0" expanded="false" />
+            <element signature="e#2653#2654#0" expanded="false" />
+            <element signature="e#2734#2735#0" expanded="false" />
+            <element signature="e#2941#2942#0" expanded="false" />
+            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="e#3213#3214#0" expanded="false" />
+            <element signature="e#3240#3241#0" expanded="false" />
+            <element signature="e#8943#8944#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+            <element signature="e#10088#10089#0" expanded="false" />
+            <element signature="e#10155#10156#0" expanded="false" />
+            <element signature="e#14316#14317#0" expanded="false" />
+            <element signature="e#14344#14345#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,15 +1275,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBRamStorageManagerProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="527">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +1304,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#1580#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1297#1298#0" expanded="false" />
+            <element signature="e#1546#1547#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +1319,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2380">
           <caret line="167" column="0" selection-start-line="159" selection-start-column="8" selection-end-line="167" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#6198#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3367#3368#0" expanded="false" />
+            <element signature="e#3415#3416#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -988,17 +1332,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
           <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#11375#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2480#2481#0" expanded="false" />
+            <element signature="e#2514#2515#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="false" />
+            <element signature="e#4023#4024#0" expanded="false" />
+            <element signature="e#4076#4077#0" expanded="false" />
+            <element signature="e#4123#4124#0" expanded="false" />
+            <element signature="e#9537#9538#0" expanded="false" />
+            <element signature="e#9564#9565#0" expanded="false" />
+            <element signature="e#9636#9637#0" expanded="false" />
+            <element signature="e#9664#9665#0" expanded="false" />
+            <element signature="e#9733#9734#0" expanded="false" />
+            <element signature="e#9760#9761#0" expanded="false" />
+            <element signature="e#9896#9897#0" expanded="false" />
+            <element signature="e#9923#9924#0" expanded="false" />
+            <element signature="e#9985#9986#0" expanded="false" />
+            <element signature="e#10012#10013#0" expanded="false" />
+            <element signature="e#10084#10085#0" expanded="false" />
+            <element signature="e#10112#10113#0" expanded="false" />
+            <element signature="e#10181#10182#0" expanded="false" />
+            <element signature="e#10208#10209#0" expanded="false" />
+            <element signature="e#10344#10345#0" expanded="false" />
+            <element signature="e#10371#10372#0" expanded="false" />
+            <element signature="e#11339#11340#0" expanded="false" />
+            <element signature="e#11371#11372#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../processfast-storage-mapdb/src/main/java/it/cnr/isti/hlt/processfast_storage_mapdb/MapDBArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="221">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#14662#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2458#2459#0" expanded="false" />
+            <element signature="e#2653#2654#0" expanded="false" />
+            <element signature="e#2734#2735#0" expanded="false" />
+            <element signature="e#2941#2942#0" expanded="false" />
+            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="e#3213#3214#0" expanded="false" />
+            <element signature="e#3240#3241#0" expanded="false" />
+            <element signature="e#8943#8944#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+            <element signature="e#10088#10089#0" expanded="false" />
+            <element signature="e#10155#10156#0" expanded="false" />
+            <element signature="e#14316#14317#0" expanded="false" />
+            <element signature="e#14344#14345#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1-sources.jar!/org/apache/spark/api/java/function/FlatMapFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#1070#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.1/spark-core_2.10-1.6.1-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#837#861#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#5802#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/ExampleSparkWordCount.java" />
+    <entry file="file://$PROJECT_DIR$/../processfast-comparison/src/main/java/wordcount/Spark_WordCountEachLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

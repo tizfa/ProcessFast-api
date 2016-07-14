@@ -34,7 +34,7 @@ import java.util.List;
  * @author Tiziano Fagni (tiziano.fagni@isti.cnr.it)
  * @since 1.0.0
  *
- * @param <T> The type od data handled by this dataset.
+ * @param <T> The type of data handled by this dataset.
  */
 public interface PartitionableDataset<T extends Serializable> {
 	
@@ -68,8 +68,18 @@ public interface PartitionableDataset<T extends Serializable> {
      * partitionable dataset.
 	 */
 	PartitionableDataset<T> cache(CacheType cacheType);
-	
-	
+
+	/**
+	 * Pass some input data to be used by successive transformations and actions called on resulting partitionable
+	 * dataset. If a previous invocation of {@link #withInputData(String, Serializable)} with the same key exists, then
+	 * the previous value will be substitued by the current value.
+	 *
+	 * @param key   The key identifying the input data.
+	 * @param value The input data.
+	 * @return A new partitionable dataset which gives access to the specified input data.
+	 */
+	PartitionableDataset<T> withInputData(String key, Serializable value);
+
 	
 	///////////////////  TRANSFORMATIONS on data  ///////////////////////////////////
 	
@@ -287,6 +297,16 @@ public interface PartitionableDataset<T extends Serializable> {
 
     /**
      * Release all allocated resources.
-     */
-    void close();
+	 */
+	void close();
+
+
+	/**
+	 * Get the input data identified by key "key" and specified using the method
+	 * {@link #withInputData(String, Serializable)}.
+	 *
+	 * @param key The input data key.
+	 * @return The requested input data or 'null' if the input data does not exist.
+	 */
+	Serializable getInputData(String key);
 }

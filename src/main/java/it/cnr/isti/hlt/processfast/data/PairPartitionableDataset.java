@@ -117,4 +117,15 @@ public interface PairPartitionableDataset<K extends Serializable, V extends Seri
 	 * @return A new partitionable dataset.
 	 */
 	PairPartitionableDataset<K, V> withPartitionSize(int partitionSize);
+
+	/**
+	 * Return a new data collection containing the union of this dataset with the specified
+	 * dataset. The resulting dataset may contains duplicate items. The equality between items is
+	 * checked according to equals() and hashCode() methods.
+	 *
+	 * @param dataset The dataset to merge with.
+	 * @return A new partitionable dataset containing the union of this dataset with the specified
+	 * dataset.
+	 */
+	PairPartitionableDataset<K, V> union(PartitionableDataset<Pair<K, V>> dataset);
 }

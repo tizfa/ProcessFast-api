@@ -100,6 +100,24 @@ public interface Array<T extends Serializable> {
 
 
     /**
+     * Append the values in the collection at the end of this array.
+     *
+     * @param values
+     */
+    void appendValues(Collection<T> values);
+
+
+    /**
+     * Append the values in the collection at the end of this array. The number
+     * of items processed together is given by "numBufferedItems" parameter.
+     *
+     * @param values
+     * @param numBufferedItems
+     */
+    void appendValues(Iterator<T> values, long numBufferedItems);
+
+
+    /**
      * Get the default value used for items not assigned in sparse representation.
      *
      * @return The default value used for items not assigned in sparse representation.
